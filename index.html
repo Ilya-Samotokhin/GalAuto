@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GalAuto - автосервис в Нижнем Новгороде</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Навигационная панель -->
+    <header id="mainHeader">
+      <div class="container">
+        <!-- Логотип слева -->
+        <a href="#" class="logo">
+          <i class="fas fa-car logo-icon"></i>
+          <span class="logo-text">GalAuto</span>
+        </a>
+
+        <!-- Навигация по центру -->
+        <nav class="nav-center">
+          <ul class="nav-links">
+            <li><a href="#why-us">О нас</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#works">Виды работ</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <!-- Телефон справа -->
+        <div class="phone">
+          <i class="fas fa-phone-alt phone-icon"></i>
+          <a href="tel:+79049079557" class="phone-number">+7 (904) 907-95-57</a>
+        </div>
+
+        <!-- Мобильное меню -->
+        <div class="menu-toggle" id="menuToggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="why-us" id="why-us">
+      <div class="hero-content">
+        <h1>GalAuto - диагностика, ТО и ремонт любых авто</h1>
+        <p>
+          Профессиональный сервис с гарантией качества в Нижнем Новгороде.
+          Работаем с 2010 года.
+        </p>
+        <a href="#contacts" class="cta-button">Наши контакты</a>
+      </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services">
+      <div class="container">
+        <h2>Наши услуги</h2>
+        <p class="section-subtitle">
+          Диагностика, плановое ТО, сложный ремонт, продажа запчастей, сервис,
+          заправка кондиционеров – делаем все.
+        </p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-oil-can"></i>
+            </div>
+            <h3>Техобслуживание</h3>
+            <p>
+              Плановое ТО, замена масел и фильтров, диагностика систем
+              автомобиля
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <h3>Ремонт двигателей</h3>
+            <p>
+              Капитальный и текущий ремонт двигателей, замена ГРМ, ремонт
+              топливной системы
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-snowflake"></i>
+            </div>
+            <h3>Кондиционеры</h3>
+            <p>
+              Заправка, диагностика и ремонт автокондиционеров,
+              антибактериальная обработка
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3>Ремонт ходовой</h3>
+            <p>
+              Диагностика и ремонт подвески, замена амортизаторов, шаровых опор,
+              сайлентблоков
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Виды работ -->
+    <section id="works" class="works-section">
+      <div class="container">
+        <h2>Виды работ</h2>
+        <p class="section-subtitle">
+          Специализация на ремонте большинства марок автомобилей
+        </p>
+
+        <div class="works-grid">
+          <div class="work-item">
+            <h3>Диагностика</h3>
+            <ul>
+              <li>Компьютерная диагностика</li>
+              <li>Диагностика подвески</li>
+              <li>Проверка тормозной системы</li>
+              <li>Диагностика системы охлождения</li>
+            </ul>
+          </div>
+
+          <div class="work-item">
+            <h3>Ремонтные работы</h3>
+            <ul>
+              <li>Двигатель и трансмиссия</li>
+              <li>Тормозная система</li>
+              <li>Рулевое управление</li>
+              <li>Выхлопная система</li>
+            </ul>
+          </div>
+
+          <div class="work-item">
+            <h3>Обслуживание</h3>
+            <ul>
+              <li>Замена технических жидкостей</li>
+              <li>Шиномонтаж и балансировка</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Отзывы с Яндекс -->
+    <section id="reviews" class="reviews-section">
+      <div class="container">
+        <h2>Отзывы наших клиентов</h2>
+        <p class="section-subtitle">Реальные отзывы с Яндекс Карт</p>
+
+        <div class="reviews-grid">
+          <div class="review-card">
+            <div class="review-header">
+              <div class="review-avatar">
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="review-author">
+                <h4>Даниил Сизов</h4>
+                <p>Оценка: ★★★★★</p>
+              </div>
+            </div>
+            <p class="review-text">
+              "Автосервис просто класс! Приехал на промывку радиатора так как
+              перестала дуть печка, мастера промыли быстро и качественно.
+              Мастера просто большие молодцы!!!"
+            </p>
+            <div class="review-date">3 октября 2025</div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="review-avatar">
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="review-author">
+                <h4>BLACK&amp;WHITE</h4>
+                <p>Оценка: ★★★★★</p>
+              </div>
+            </div>
+            <p class="review-text">
+              "Парни молодцы, шиномонтаж сделали быстро, цена
+              хорошая,предоставляют и другие услуги, работают без выходных,
+              делают на совесть, без хамства ."
+            </p>
+            <div class="review-date">8 апреля 2024</div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="review-avatar">
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="review-author">
+                <h4>Алексей Смирнов</h4>
+                <p>Оценка: ★★★★☆</p>
+              </div>
+            </div>
+            <p class="review-text">
+              "Ремонтировали ходовую на Kia. Сделали качественно, но пришлось
+              ждать запчасти 2 дня. В целом сервис понравился, цены средние по
+              рынку."
+            </p>
+            <div class="review-date">15 ноября 2024</div>
+          </div>
+        </div>
+
+        <div class="more-reviews">
+          <a
+            href="https://yandex.ru/maps/org/galauto/1123456789/reviews/"
+            target="_blank"
+            class="yandex-reviews-link"
+          >
+            <i class="fab fa-yandex"></i> Все отзывы на Яндекс Картах
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Контакты с Яндекс картой -->
+    <section id="contacts" class="contacts-section">
+      <div class="container">
+        <h2>Контакты</h2>
+        <div class="contacts-content">
+          <div class="contact-info">
+            <h3>Наши контакты</h3>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <p><strong>Адрес:</strong></p>
+                <p>г. Нижний Новгород, ул. Федосеенко, д. 100в</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <p><strong>Телефон:</strong></p>
+                <p>+7 (904) 907-95-57</p>
+                <div class="messenger-links">
+                  <a
+                    href="https://t.me/+79049079557"
+                    target="_blank"
+                    class="messenger-link telegram"
+                  >
+                    <i class="fab fa-telegram"></i> Telegram
+                  </a>
+                  <a
+                    href="https://wa.me/79049079557"
+                    target="_blank"
+                    class="messenger-link whatsapp"
+                  >
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <p><strong>Режим работы:</strong></p>
+                <p>Пн-Вс: 8:00 - 20:00</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <p><strong>Email:</strong></p>
+                <p>fedos100w@yandex.ru</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-container">
+            <h3>Мы на карте</h3>
+            <div class="yandex-map">
+              <!-- Яндекс карта -->
+              <div
+                id="map"
+                style="width: 100%; height: 400px; border-radius: 8px"
+              ></div>
+              <div class="map-actions">
+                <a
+                  href="https://yandex.ru/maps/org/galauto/1123456789/"
+                  target="_blank"
+                  class="map-link"
+                >
+                  <i class="fas fa-external-link-alt"></i> Открыть в Яндекс
+                  Картах
+                </a>
+                <a
+                  href="https://yandex.ru/maps/?pt=43.804485,56.347953&z=17&l=map"
+                  target="_blank"
+                  class="route-link"
+                >
+                  <i class="fas fa-route"></i> Построить маршрут
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 GalAuto. Все права защищены.</p>
+        <div class="footer-links">
+          <a href="https://t.me/+79049079557" target="_blank" title="Telegram">
+            <i class="fab fa-telegram"></i>
+          </a>
+          <a href="https://wa.me/79049079557" target="_blank" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a
+            href="https://yandex.ru/maps/org/galauto/1123456789/"
+            target="_blank"
+            title="Яндекс Карты"
+          >
+            <i class="fab fa-yandex"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Яндекс Карты API -->
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=ваш_api_ключ&lang=ru_RU"
+      type="text/javascript"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
